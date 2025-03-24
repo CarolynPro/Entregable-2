@@ -7,8 +7,8 @@ function validarFormulario(){
 
     if (!nombre) { alert( "Ingrese campo Nombre" ); return false; }
     if( email.length == 0 ){ alert( "Ingrese campo Correo" ); return false; }
-    if( celular == "" ){ alert( "Ingrese campo Teléfono" ); return false; }
-    if( mensaje.length == 0 ){ alert( "Ingrese campo Correo" ); return false; }
+    if( celular == "" ){ alert( "Ingrese campo Celular" ); return false; }
+    if( mensaje.length == 0 ){ alert( "Ingrese campo Describe los productos de interes" ); return false; }
     
     else{
         alert("Registro completo");
