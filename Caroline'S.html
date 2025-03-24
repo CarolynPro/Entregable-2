@@ -65,31 +65,86 @@ nav ul li:hover .submenu {
 .submenu li a:hover {
     background-color: #dd0f0f;
 }
-    </style>
+label{
+	display: block;
+	margin: 10px 0 5px;
+	font-weight: bold;
+}
+input,textarea,select{
+	width: 96%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+
+}
+
+input[type="submit"]:hover{
+	background-color: #45a049;
+}
+.container{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #cacff9;
+	border-radius: 12px;
+	box-shadow: 0 0 10px rgb(0,0,0.1);
+</style>
 </head>
 <body>
     <header>
        <nav>
             <h1>CAROLINE'S SHOP</h1>
             <ul>
-                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#Quienes Somos">Quienes Somos</a></li>
                 <li>
-                    <a href="#">Productos </a>
+                    <a href="#Productos">Productos</a>
                     <ul class="submenu">
-                        <li><a href="#">Vestidos</a></li>
-                        <li><a href="#">Jean</a></li>
-                        <li><a href="#">Pantalones</a></li>
-                        <li><a href="#">Blusas</a></li>
-                        <li><a href="#">Ropa Interior</a></li>
-                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#Vestidos">Vestidos</a></li>
+                        <li><a href="#Jean">Jean</a></li>
+                        <li><a href="#Pantalones">Pantalones</a></li>
+                        <li><a href="#Blusas">Blusas</a></li>
+                        <li><a href="#Ropa Interior">Ropa Interior</a></li>
+                        <li><a href="#Accesorios">Accesorios</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Tallas</a></li>
-                <li><a href="#">Cotizaciones</a></li>
+                <li><a href="#Tallas">Tallas</a></li>
             </ul>
        </nav>
-
     </header>
+
+    <section id="Quienes Somos">
+        <h2><center>Quienes Somos</center></h2>
+       <p>En una pequeña ciudad, un grupo de mujeres decidió unirse con un sueño común: transformar su pasión por la moda en una empresa próspera. Con el espíritu de la innovación, la creatividad y, sobre todo, la fuerza de la sororidad, estas mujeres se lanzaron a la aventura de crear su propia marca de ropa. Su visión era clara: ofrecer prendas que no solo fueran elegantes y accesibles, sino que también transmitieran confianza y empoderamiento a todas las mujeres que las usaran.
+        <br> <br>
+        Cada una de ellas aportó su propio talento y perspectiva. Ana, una diseñadora de moda con años de experiencia, comenzó a crear los primeros prototipos de la colección, buscando siempre el equilibrio perfecto entre estilo y comodidad. Mariana, experta en marketing digital, ideó estrategias para posicionar la marca en redes sociales, creando contenido que conectara con mujeres de todas las edades. Laura, con su amplio conocimiento en administración, organizó las operaciones internas de la empresa, asegurándose de que cada detalle, desde la fabricación hasta la entrega, fuera impecable. </p>
+       <img src="">
+        </section>
+       <section id="Productos">
+        <h2><center> Productos</center></h2>
+        
+       </section>
+       <section id="Tallas">
+        <h2><center>Tallas </center></h2>
+        <img src="">
+       </section>
+    
+       <p> Si requieres una cotizacion diligencia el siguiente formulario</p>
+       <div class="container">
+        <h1>Formulario de Cotizaciones</h1>
+    <form>
+        <label>*Nombre:</label>
+        <input type="text" name="nombre" required="">
+        <label>*Correo Electrónico:</label>
+        <input type="email" name="email" required="">
+        <label>Celular:</label>
+        <input type="tel" name="tel" maxlength="10">
+        <label>Describe los productos de interes:</label>
+        <textarea id="Mansaje" rows="3"></textarea>
+        <input type="submit" name="" value="Enviar">
+        <p>* Campo Requerido ...</p>
+    </form>
+    </div>
 
     <script></script>
 
@@ -103,8 +158,6 @@ nav ul li:hover .submenu {
                     <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-        </div>
-    
         <div class="footer-bottom">
             © 2025 TalentoTech Entrega 2- Todos los derechos reservados.
         </div>
